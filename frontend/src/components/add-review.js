@@ -1,4 +1,3 @@
-import './App.css';
 
 function AddReview() {
   return (
