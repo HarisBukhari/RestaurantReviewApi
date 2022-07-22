@@ -8,7 +8,7 @@ app.use(cors())
 app.use(express.json())
 
 app.get("/",(req,res)=>{
-    res.send("<h1>Check ReadME For Api Use</h1>")
+    res.redirect('/restaurants')
 })
 
 app.use("/restaurants", restaurants)
